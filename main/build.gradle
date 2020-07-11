@@ -1,0 +1,12 @@
+plugins {
+  id 'application'
+}
+
+application {
+  mainClass = "com.sudhir.main.Main"
+}
+
+dependencies {
+  implementation project(':common')
+  implementation project(':util')
+}
