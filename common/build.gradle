@@ -1,0 +1,5 @@
+hello {
+  doLast {
+    task -> println "This is very specifi to $task.project.name "
+  }
+}

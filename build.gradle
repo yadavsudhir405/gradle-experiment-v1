@@ -1,13 +1,16 @@
-task hello {
-  doLast { task ->
-    println "I'm $task.project.name"
+allprojects {
+  task hello {
+    doLast {
+      task -> println "I'm $task.project.name"
+    }
   }
 }
 
-project(':main') {
-  task hello {
+subprojects {
+  hello {
     doLast { task ->
-      println "I'm $task.project.name"
+      println "This is for submodules $task.project.name"
+    
     }
   }
 }

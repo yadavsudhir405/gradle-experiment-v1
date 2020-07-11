@@ -25,3 +25,4 @@ hs_err_pid*
 .gradle
 .gradle/6.5.1/executionHistory/executionHistory.bin
 .gradle/6.5.1/executionHistory/executionHistory.lock
+.gradle/6.5.1/executionHistory/executionHistory.bin
