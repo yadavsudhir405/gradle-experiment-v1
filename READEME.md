@@ -13,3 +13,6 @@
 
 5) Refresh the repositories cache
 `gradle --refresh-dependencies`
+
+6) Run spcific task of submodules
+`gradle :<sub-project-name>:<task-name>`
