@@ -2,12 +2,12 @@
 
 ### Commands
 1) To run the build task
-`gradle <task-name`
+`gradle <task-name>`
 
 2) Run multiple tasks
 `gradle <task1> <task2>`
 
-3) See the deplendicies
+3) See the dependencies
 `gradle -q dependencies`
 
 4) See all the dependencies for specific implementation
