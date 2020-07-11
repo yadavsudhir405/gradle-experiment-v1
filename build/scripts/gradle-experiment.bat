@@ -82,11 +82,11 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\gradle-experiment-1.0-SNAPSHOT.jar
+set CLASSPATH=%APP_HOME%\lib\gradle-experiment-1.0-SNAPSHOT.jar;%APP_HOME%\lib\log4j-1.2.17.jar
 
 
 @rem Execute gradle-experiment
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_EXPERIMENT_OPTS%  -classpath "%CLASSPATH%" com.sudhir.Min %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_EXPERIMENT_OPTS%  -classpath "%CLASSPATH%" com.sudhir.Main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

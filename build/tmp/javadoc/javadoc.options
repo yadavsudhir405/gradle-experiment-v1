@@ -1,0 +1,7 @@
+-classpath '/Users/sudhiry/yadavsudhir405/gradle-experiment/build/classes/java/main:/Users/sudhiry/yadavsudhir405/gradle-experiment/build/resources/main:/Users/sudhiry/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar'
+-d '/Users/sudhiry/yadavsudhir405/gradle-experiment/build/docs/javadoc'
+-doctitle 'gradle-experiment 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'gradle-experiment 1.0-SNAPSHOT API'
+'/Users/sudhiry/yadavsudhir405/gradle-experiment/src/main/java/com/sudhir/Main.java'

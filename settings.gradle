@@ -1,0 +1,2 @@
+rootProject.name = 'gradle-experiment'
+include 'main', 'common', 'util'
