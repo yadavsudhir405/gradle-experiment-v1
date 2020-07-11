@@ -4,4 +4,5 @@ plugins {
 
 dependencies {
   implementation project(':common')
+  implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.1'
 }

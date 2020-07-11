@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\main-1.0.jar;%APP_HOME%\lib\util-1.0.jar;%APP_HOME%\lib\common-1.0.jar
+set CLASSPATH=%APP_HOME%\lib\main-1.0.jar;%APP_HOME%\lib\util-1.0.jar;%APP_HOME%\lib\common-1.0.jar;%APP_HOME%\lib\jackson-databind-2.11.1.jar;%APP_HOME%\lib\jackson-annotations-2.11.1.jar;%APP_HOME%\lib\jackson-core-2.11.1.jar
 
 
 @rem Execute main
