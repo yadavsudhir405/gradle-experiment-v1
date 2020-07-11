@@ -10,7 +10,14 @@ subprojects {
   hello {
     doLast { task ->
       println "This is for submodules $task.project.name"
-    
     }
   }
+}
+
+configure(subprojects.findAll {it.name == "common"}) {
+    hello {
+        doLast {
+            println 'This is very specific to common'
+        }
+    }
 }
